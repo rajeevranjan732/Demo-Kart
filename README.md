@@ -1,0 +1,2 @@
+# Demo-Kart
+A Demo Shopping System - A responsive online site providing unique experience to the user where they can select a product form list of available options, buy an item, return item, manage the list and many other features in user friendly environment. Whole System divided in 2 sections, Back end (Using technologies like JSP, Servlets, Oracle Database etc) and front end UI ( technologies like HTML, CSS, Javascript, JSP, Bootstrap etc).
