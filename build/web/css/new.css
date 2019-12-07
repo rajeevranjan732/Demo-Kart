@@ -1,0 +1,28 @@
+@media screen and (min-width: 600px) {
+	#menuwrapper ul li{
+		cursor: pointer;
+	}
+	#menuwrapper ul li ul{
+		position: relative;
+		display: none;
+		width: 200px;
+                
+	}
+	#menuwrapper ul li:hover ul{
+		display: block;
+		top: inherit;
+		width: 100%;
+                padding: inherit;
+	}
+	#menuwrapper ul li:hover ul li ul{
+		position: relative;
+		display: none;
+		width: 200px;
+	}
+	#menuwrapper ul li:hover ul li:hover ul{
+		display: block;
+		top: inherit;
+		width: 100%;
+		background-color: #23527c;
+	}	
+}
