@@ -1,0 +1,37 @@
+database - oracle
+username - system
+password - iamthewinner
+
+table - customer, fashion, video, audio, electronics
+
+create table customer(name varchar(20),address varchar(50),email varchar(30),password varchar(20),phone varchar(10),kart varchar(50),bought varchar(50));
+create table fashion(code varchar(5),name varchar(20),detail varchar(50),price varchar(5));
+insert into fashion values('10','affdsaf','affasfas adasd afsad','2000');
+insert into fashion values('11','affdsaf','affasfas adasd afsad','2000');
+insert into fashion values('12','affdsaf','affasfas adasd afsad','2000');
+
+create table video(code varchar(5),name varchar(20),detail varchar(50),price varchar(5));
+insert into video values('20','affdsaf','affasfas adasd afsad','2000');
+insert into video values('21','affdsaf','affasfas adasd afsad','2000');
+insert into video values('23','affdsaf','affasfas adasd afsad','2000');
+insert into video values('24','affdsaf','affasfas adasd afsad','2000');
+
+create table audio(code varchar(5),name varchar(20),detail varchar(50),price varchar(5));
+insert into audio values('30','affdsaf','affasfas adasd afsad','2000');
+insert into audio values('31','affdsaf','affasfas adasd afsad','2000');
+insert into audio values('32','affdsaf','affasfas adasd afsad','2000');
+insert into audio values('33','affdsaf','affasfas adasd afsad','2000');
+insert into audio values('34','affdsaf','affasfas adasd afsad','2000');
+insert into audio values('35','affdsaf','affasfas adasd afsad','2000');
+insert into audio values('36','affdsaf','affasfas adasd afsad','2000');
+insert into audio values('37','affdsaf','affasfas adasd afsad','2000');
+
+create table electronics(code varchar(5),name varchar(20),detail varchar(50),price varchar(5));
+insert into electronics values('40','affdsaf','affasfas adasd afsad','30000');
+insert into electronics values('41','affdsaf','affasfas adasd afsad','30000');
+insert into electronics values('42','affdsaf','affasfas adasd afsad','30000');
+insert into electronics values('43','affdsaf','affasfas adasd afsad','30000');
+insert into electronics values('44','affdsaf','affasfas adasd afsad','30000');
+insert into electronics values('45','affdsaf','affasfas adasd afsad','30000');
+insert into electronics values('46','affdsaf','affasfas adasd afsad','30000');
+insert into electronics values('47','affdsaf','affasfas adasd afsad','30000');
